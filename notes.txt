@@ -1,0 +1,31 @@
+
+  point of interest/most popular Destination
+
+  overall rating? (1-5 stars)
+
+  Edit/and delete functionality for users if they inputted location. 
+
+  Search by random destination for fun. (.math(random))?
+
+  Tables: Destination
+      DestinationName
+      Country
+      State/Provence
+      City
+      Category (Historic/Outdoor/Wine/Food/Amusement)
+      Rating (1-5)
+      DestinationDescription
+      JoinTable for That User/User Stories/Reviews
+
+  Table:Reviewer 
+      ReviewId
+      Name
+      DateOfReview
+      Location
+      ReviewDescription
+
+  JoinTable: DestinationReview
+      DestinationId
+      ReviewId
+      UserId
+      DestinationReviewId
