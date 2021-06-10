@@ -1287,23 +1287,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jesse\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/isaacmoreno/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jesse\\OneDrive\\Desktop\\Epicodus\\13 week-thirteen\\Travel.Solution\\Travel\\Travel.csproj",
+      "projectUniqueName": "/Users/isaacmoreno/Desktop/epicodus/Travel.Solution/Travel/Travel.csproj",
       "projectName": "Travel",
-      "projectPath": "C:\\Users\\jesse\\OneDrive\\Desktop\\Epicodus\\13 week-thirteen\\Travel.Solution\\Travel\\Travel.csproj",
-      "packagesPath": "C:\\Users\\jesse\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jesse\\OneDrive\\Desktop\\Epicodus\\13 week-thirteen\\Travel.Solution\\Travel\\obj\\",
+      "projectPath": "/Users/isaacmoreno/Desktop/epicodus/Travel.Solution/Travel/Travel.csproj",
+      "packagesPath": "/Users/isaacmoreno/.nuget/packages/",
+      "outputPath": "/Users/isaacmoreno/Desktop/epicodus/Travel.Solution/Travel/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jesse\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/isaacmoreno/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -1378,7 +1374,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

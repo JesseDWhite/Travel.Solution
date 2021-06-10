@@ -24,9 +24,12 @@ namespace Travel
 
     public void ConfigureServices(IServiceCollection services)
     {
+      services.AddControllers();
       services.AddDbContext<TravelContext>(opt =>
           opt.UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
-      services.AddControllers();
+      // services.AddMvc();
+      // services.AddControllers();
+
 
       services.AddSwaggerGen(c =>
       {
