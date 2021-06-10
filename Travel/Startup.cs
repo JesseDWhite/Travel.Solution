@@ -20,7 +20,7 @@ namespace Travel
       Configuration = configuration;
     }
 
-    public IConfiguration Configuration { get; }
+    public IConfiguration Configuration { get; set; } //this is initially just a get request.
 
     public void ConfigureServices(IServiceCollection services)
     {
